@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Обо мне - Никита</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header" id="top">
+        <div class="container header-content">
+            <div class="brand">
+                <p class="eyebrow">ЛИЧНАЯ СТРАНИЦА</p>
+                <h1>Никита</h1>
+            </div>
+            <nav class="main-nav" aria-label="Основная навигация">
+                <div class="nav-links">
+                    <a href="index.html">Главная</a>
+                    <a href="interests.html">Мои интересы</a>
+                    <a href="#about">Обо мне</a>
+                    <a href="#skills">Навыки</a>
+                    <a href="#plans">Планы</a>
+                    <a href="#playlist">Плейлист</a>
+                    <a href="#video">Видео</a>
+                    <a href="#forms">Личный кабинет</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container page-layout">
+        <section class="card about-section" id="about">
+            <h2>Немного обо мне</h2>
+            <div class="about-grid">
+                <figure class="profile-figure">
+                    <img src="fer.jpg" alt="Ferrari у воды">
+                    <figcaption>Автомобили - одно из моих главных увлечений.</figcaption>
+                </figure>
+                <article>
+                    <h3>Кто я?</h3>
+                    <p>Я Никита. Мне интересны автомобили, спорт, бизнес и создание контента. Сейчас я учусь новому и стараюсь развиваться в разных направлениях.</p>
+                    <p>В свободное время мне нравится узнавать больше о машинах, заниматься спортом и придумывать идеи для видео. Я считаю, что <strong>постоянное развитие</strong> помогает добиваться целей.</p>
+                    <p>Мне важно не стоять на месте и пробовать новое. Даже небольшой шаг вперёд - это <em>уже прогресс</em>.</p>
+                    <p class="highlight-line">Мой принцип: <span>учиться, пробовать и двигаться вперёд.</span></p>
+                </article>
+            </div>
+        </section>
+
+        <section class="card" id="interests">
+            <h2>Мои интересы</h2>
+            <p>Есть несколько тем, которым я с удовольствием уделяю время:</p>
+            <ul class="interest-list">
+                <li>Автомобили и автомобильная культура</li>
+                <li>Спорт и тренировки в тренажёрном зале</li>
+                <li>Создание видео и контента для социальных сетей</li>
+                <li>Бизнес и личные финансы</li>
+            </ul>
+        </section>
+
+        <section class="card" id="skills">
+            <h2>Мои навыки</h2>
+            <p>Я продолжаю учиться и постепенно развиваю полезные навыки.</p>
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th scope="col">Направление</th>
+                            <th scope="col">Что умею / изучаю</th>
+                            <th scope="col">Моя цель</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Спорт</td>
+                            <td>Регулярные тренировки</td>
+                            <td>Стать сильнее и выносливее</td>
+                        </tr>
+                        <tr>
+                            <td>Контент</td>
+                            <td>Монтаж коротких видео</td>
+                            <td>Улучшить качество роликов</td>
+                        </tr>
+                        <tr>
+                            <td>Веб-разработка</td>
+                            <td>Основы HTML и CSS</td>
+                            <td>Научиться создавать сайты</td>
+                        </tr>
+                        <tr>
+                            <td>Бизнес</td>
+                            <td>Изучение идей и рынка</td>
+                            <td>Найти перспективное направление</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="3">Главная цель - постоянно получать новые знания и применять их на практике.</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </section>
+
+        <section class="card" id="plans">
+            <h2>Мои планы</h2>
+            <p>Чтобы двигаться к своим целям, я стараюсь действовать постепенно:</p>
+            <ol class="plan-list">
+                <li>Определять конкретную цель.</li>
+                <li>Составлять простой план действий.</li>
+                <li>Регулярно практиковаться и проверять результат.</li>
+                <li>Анализировать ошибки и улучшать результат.</li>
+            </ol>
+        </section>
+
+        <aside class="side-note">
+            <h2>Интересный факт</h2>
+            <p>Мне нравится изучать, как устроены автомобили, и смотреть, как идеи превращаются в готовый результат - будь то проект, видео или личная цель.</p>
+        </aside>
+
+
+        <section class="card video-section" id="video">
+            <h2>Моё видео</h2>
+            <p>В этом коротком ролике я показал видео снятое мной.</p>
+            <div class="video-frame">
+                <video controls preload="metadata" poster="CD1C9549-992A-4C85-86B7-EE79E99C6550.mp4" aria-label="Видео о моих увлечениях">
+                    <source src="CD1C9549-992A-4C85-86B7-EE79E99C6550.mp4" type="video/mp4">
+                    <track src="video-subtitles.vtt" kind="captions" srclang="ru" label="Русские субтитры" default>
+                    Ваш браузер не поддерживает HTML-видео.
+                    <a href="CD1C9549-992A-4C85-86B7-EE79E99C6550.mp4" download>Скачайте видеофайл</a>.
+                </video>
+            </div>
+        </section>
+
+        <section class="card playlist-section" id="playlist">
+            <h2>Мой плейлист</h2>
+            <div class="playlist-intro">
+                <div class="playlist-cover" aria-hidden="true">♫</div>
+                <div>
+                    <h3>Моя музыкальная подборка</h3>
+                    <p>Здесь вы можете послушать мои любимые треки прямо из Яндекс Музыки:</p>
+                </div>
+            </div>
+
+            <div class="track-list">
+                <!-- Трек 1 -->
+                <article class="track-card">
+                    <h3>1. Трек из Яндекс Музыки</h3>
+                    <iframe class="music-iframe" src="https://music.yandex.ru/iframe/track/19512871/2190690">Слушайте трек на Яндекс Музыке</iframe>
+                </article>
+
+                <!-- Трек 2 -->
+                <article class="track-card">
+                    <h3>2. Трек из Яндекс Музыки</h3>
+                    <iframe class="music-iframe" src="https://music.yandex.ru/iframe/track/143433033/38427689">Слушайте трек на Яндекс Музыке</iframe>
+                </article>
+
+                <!-- Трек 3 -->
+                <article class="track-card">
+                    <h3>3. Трек из Яндекс Музыки</h3>
+                    <iframe class="music-iframe" src="https://music.yandex.ru/iframe/track/795836/9172879">Слушайте трек на Яндекс Музыке</iframe>
+                </article>
+
+                <!-- Трек 4 -->
+                <article class="track-card">
+                    <h3>4. Трек из Яндекс Музыки</h3>
+                    <iframe class="music-iframe" src="https://music.yandex.ru/iframe/track/71864937/12293394">Слушайте трек на Яндекс Музыке</iframe>
+                </article>
+
+                <!-- Трек 5 -->
+                <article class="track-card">
+                    <h3>5. Трек из Яндекс Музыки</h3>
+                    <iframe class="music-iframe" src="https://music.yandex.ru/iframe/track/9060176/1107491">Слушайте трек на Яндекс Музыке</iframe>
+                </article>
+            </div>
+        </section>
+
+        <section class="card forms-section" id="forms">
+            <h2>Личный кабинет</h2>
+            <p class="forms-intro">Ниже представлены демонстрационные формы входа и регистрации. Данные вводятся локально и никуда не отправляются.</p>
+
+            <div class="forms-grid">
+                <form class="form-card" id="login-form">
+                    <h3>Вход</h3>
+
+                    <div class="form-field">
+                        <label for="login-email">Электронная почта</label>
+                        <input type="email" id="login-email" name="login-email" autocomplete="email" placeholder="name@example.com" required>
+                    </div>
+
+                    <div class="form-field">
+                        <label for="login-password">Пароль</label>
+                        <input type="password" id="login-password" name="login-password" autocomplete="current-password" placeholder="Введите пароль" required>
+                    </div>
+
+                    <button type="submit">Войти</button>
+                    <p class="form-message" id="login-message" aria-live="polite"></p>
+                </form>
+
+                <form class="form-card" id="register-form">
+                    <h3>Регистрация</h3>
+
+                    <div class="form-field">
+                        <label for="register-name">Имя (до 50 символов)</label>
+                        <input type="text" id="register-name" name="name" maxlength="50" autocomplete="name" placeholder="Как вас зовут?" required>
+                    </div>
+
+                    <div class="form-field">
+                        <label for="register-email">Электронная почта</label>
+                        <input type="email" id="register-email" name="email" autocomplete="email" placeholder="name@example.com" required>
+                    </div>
+
+                    <div class="form-field">
+                        <label for="register-password">Пароль</label>
+                        <input type="password" id="register-password" name="password" autocomplete="new-password" placeholder="Придумайте пароль" required>
+                    </div>
+
+                    <fieldset class="form-field age-field">
+                        <legend>Возрастная группа</legend>
+                        <div class="radio-options">
+                            <label class="radio-label"><input type="radio" name="age-group" value="До 18" required> До 18</label>
+                            <label class="radio-label"><input type="radio" name="age-group" value="18–24"> 18–24</label>
+                            <label class="radio-label"><input type="radio" name="age-group" value="25 и старше"> 25 и старше</label>
+                        </div>
+                    </fieldset>
+
+                    <div class="form-field">
+                        <label for="register-about">О себе (до 300 символов)</label>
+                        <textarea id="register-about" name="about" rows="4" maxlength="300" placeholder="Расскажите немного о себе"></textarea>
+                        <small style="color: #94a3b8;">Максимум 300 символов.</small>
+                    </div>
+
+                    <button type="submit">Зарегистрироваться</button>
+                    <p class="form-message" id="register-message" aria-live="polite"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p> 2026 Никита · Сайт-визитка «Обо мне»</p>
+            <p><a href="interests.html">Перейти к моим интересам</a></p>
+            <p><a href="#top">Вернуться наверх </a></p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById("login-form").addEventListener("submit", function (event) {
+            event.preventDefault();
+            document.getElementById("login-message").textContent =
+                "Это демонстрационная форма. Настоящий вход в систему не настроен.";
+        });
+
+        document.getElementById("register-form").addEventListener("submit", function (event) {
+            event.preventDefault();
+            document.getElementById("register-message").textContent =
+                "Это демонстрационная форма. Регистрация и сохранение данных не настроены.";
+        });
+    </script>
+</body>
+</html>
